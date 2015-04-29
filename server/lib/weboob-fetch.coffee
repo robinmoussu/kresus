@@ -76,7 +76,7 @@ exports.InstallOrUpdateWeboob = InstallOrUpdateWeboob = (forceUpdate, cb) ->
             logContent += wat + '\n'
             console.warn '[weboob] ' + wat
             logCount += 1
-            if logCount == 5
+            if logCount == 20
                 saveLog (err) ->
                     if err?
                         console.info "error when saving temporary log: #{err}"

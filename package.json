@@ -28,7 +28,9 @@
     "del": "~1.1.0",
     "vinyl-buffer": "~1.0.0",
     "vinyl-source-stream": "~1.0.0",
-    "babelify": "~5.0.4"
+    "babelify": "~5.0.4",
+    "cozy-db-pouchdb": "0.0.13",
+    "path-extra": "~1.0.2"
   },
   "devDependencies": {
     "should": "3.1.4",
@@ -40,6 +42,9 @@
     "start": "node build/server.js",
     "postinstall": "./node_modules/gulp/bin/gulp.js b && ./postinstall.sh",
     "dev": "gulp w"
+  },
+  "bin": {
+    "kresus": "bin/kresus"
   },
   "cozy-displayName": "Kresus",
   "cozy-permissions": {

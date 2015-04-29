@@ -21,7 +21,7 @@ config =
     ]
 
     plugins: [
-        'americano-cozy'
+        'cozy-db-pouchdb'
     ]
 
 module.exports = config
