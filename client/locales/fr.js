@@ -131,7 +131,7 @@ module.exports = {
         amount_low: 'Montant : entre',
         and: 'et',
         date_low: 'Date : entre',
-        clear: 'vider',
+        clear: 'effacer',
         title: 'Recherche',
     },
 
